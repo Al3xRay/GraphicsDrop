@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+}
+
+
+main div{
+    padding:40px;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+    background-image:url(RTX-Series-40-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+main div p{
+    width: 30%;
+    line-height: 1.4;
+}
+
+main div h1{
+    font-size: 70px;
+    padding-top: 50px;
+}
+
+main div h2{
+    font-size: 40px;
+    line-height: 2;
+}
+
+main div a{
+    background: hsl(82, 100%, 33%);
+    display: inline-block;
+    width:200px;
+    font-size: 22px;
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+    position: relative;
+    padding: 5px;
+    box-sizing: border-box;
+}

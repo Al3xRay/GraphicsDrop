@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    list-style:none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+body{
+    padding-top: 70px;
+}
+
+.header-menu{
+    background-color: #293241;
+    width:100vw;
+    height:70px;
+    margin-top: -70px;
+    position: fixed;
+    z-index: 100;
+}
+
+.header-menu nav ul{
+    display:flex;
+    float:right;
+}
+
+.header-menu nav ul li div a.icon-login img{
+    width: 48px;
+}
+
+.header-menu nav ul li{
+    height:70px;
+    border-radius: 10px;
+    padding: 0px 50px;
+    font-size: 20px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.header-menu nav ul li div a{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+}
+
+.header-menu nav ul li:hover{
+    background: rgba(0, 0, 0, 0.288);
+    transition:background-color 400ms;
+}
+
+.header-menu nav ul li.input input{
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+    width: 24vw;
+    height: 25px;
+    border-radius: 5px;
+}
+
+
+.header-menu div a nav.img-header{
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+
+.header-menu div a nav div{
+    height: 70px;
+    width:250px;
+    background-image: url(DROPSHIPPING.PNG);
+    background-size:cover;
+    background-position-y: -15px;
+    background-repeat: no-repeat;
+}
+
+.header-menu div a nav.img-header:hover{
+    background: rgba(0, 0, 0, 0.288);
+    transition:background-color 400ms;
+    -webkit-transition:background-color 400ms;
+    -moz-transition:background-color 400ms;
+    -ms-transition:background-color 400ms;
+    -o-transition:background-color 400ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.header-menu nav ul li ul{
+    background-color: rgb(255, 255, 255);
+    position:absolute;
+    visibility: hidden;
+    display: inline-block;
+    right: 0;
+    padding: 20px;
+    top: 70px;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+    box-shadow:0px 0px 30px 1px rgba(0, 0, 0, 0.493);
+    z-index: 50;
+}
+
+.header-menu nav ul li:hover ul{
+    visibility: visible;
+}
+
+.header-menu nav ul li ul li{
+    width:100%;
+    padding: 0;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+
+}
+
+.header-menu nav ul li ul li.close-session{
+    margin-top: 10px;
+}
+
+.header-menu nav ul li ul li.close-session a{
+    color: rgb(212, 21, 21);
+}
+
+
+.header-menu nav ul li ul li a{
+    color: black;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.header-menu nav ul li ul li:hover{
+    border-radius: 15px;
+    background: rgba(0, 0, 0, 0.137);
+    transition:background-color 400ms;
+    -webkit-transition:background-color 400ms;
+    -moz-transition:background-color 400ms;
+    -ms-transition:background-color 400ms;
+    -o-transition:background-color 400ms;
+}
+
+
+@media (max-width:1307px) {
+    .header-menu nav ul li
+    {
+        padding: 25px 20px;
+    }
+    html{
+        width: 100%;
+    }
+}

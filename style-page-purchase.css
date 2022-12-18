@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+div.main-page{
+    width: 100%;
+    margin: 10px;
+    display: grid;
+    grid-template-columns:repeat(5,1fr);
+    grid-template-rows:repeat(5, auto);;
+    grid-gap: 20px;
+    margin: auto;
+}
+
+div.main-page div.section-lateral{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:3;
+}
+
+div.main-page div.section-lateral div.container-img{
+    background-image: url(MSI-RTX-4090-GAMING-X-TRIO-24G.png);
+    height: 600px;
+    box-sizing:border-box;
+    margin: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+
+div.main-page div.centerCol{
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+div.main-page div.centerCol div.container-titles_descr h2{
+    text-align: left;
+    font-weight: 500;
+}
+
+div.main-page div.centerCol div.details-product h3{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 20px;
+
+}
+
+div.main-page div.centerCol div.details-product ul{
+    font-size: 14px;
+    line-height: 1.9;
+}
+
+div.main-page div.centerCol div.price-product{
+    margin-top: 30px;
+}
+
+
+div.main-page div.centerCol div.price-product h5{
+    display: inline;
+    position: relative;
+    bottom: 10px;
+    font-weight: 100;
+}
+
+div.main-page div.centerCol div.price-product h2{
+    display: inline;
+    font-weight:bold;
+    font-size: 26px;
+}
+
+div.main-page div.rightCol{
+    box-sizing: border-box;
+    border: 1px solid rgb(204, 204, 204);
+    grid-column-start: 5;
+    height: 90vh;
+    grid-column-end: 6;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+div.main-page div.rightCol{
+    padding: 20px;
+    width: 400px;
+    height: auto;
+}
+
+div.main-page div.rightCol div.price-rightCol h5{
+    display: inline;
+    position: relative;
+    bottom: 10px;
+    font-weight: 100;
+}
+
+div.main-page div.rightCol div.price-rightCol h2{
+    display: inline;
+    font-weight:bold;
+    line-height: 3;
+    font-size: 28px;
+}
+
+div.main-page div.rightCol div.estimate-time1 h5{
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+div.main-page div.rightCol div.estimate-time2 h5{
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 16px;
+}
+
+div.main-page div.rightCol div.stock h4{
+    color: rgb(175, 7, 7);
+    margin-bottom: 30px;
+}
+
+div.main-page div.rightCol div.btn-addcar input{
+    background-color: rgb(255, 255, 0);
+    border: none;
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 50%;
+    height: 40px;
+    margin: auto;
+    font-size: 16px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    margin-bottom: 15px;
+    position: relative;
+    left: 25%;
+}
+
+div.main-page div.rightCol div.btn-buynow input{
+    background-color: rgb(235, 169, 25);
+    border: none;
+    position: relative;
+    left: 25%;
+    box-sizing: border-box;
+    border-radius: 40px;
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+div.main-page div.rightCol div.btn-addcar input:hover{
+    background-color: rgb(228, 228, 22);
+    cursor:pointer;
+}
+
+div.main-page div.rightCol div.btn-addcar input:hover{
+    background-color: rgb(228, 228, 22);
+    cursor:pointer;
+}

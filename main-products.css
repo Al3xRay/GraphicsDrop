@@ -1,0 +1,336 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color:rgb(243, 243, 243);
+    overflow-x: hidden;
+}
+
+main{
+    width: 100%;
+    margin: 10px 5px;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    background-color: rgb(241, 241, 241);
+}
+
+main > div, section, aside, footer{
+   background-color: rgb(255, 255, 255);
+   border-radius: 4px;
+   -webkit-border-radius: 4px;
+   -moz-border-radius: 4px;
+   -ms-border-radius: 4px;
+   -o-border-radius: 4px;
+}
+
+main > aside{
+    padding: 20px;
+    grid-column-start:1;
+    grid-column-end: 1;
+    grid-row: 1 / 5;
+    width: 280px;
+    height: auto;
+    padding:20px;
+    background-color:rgb(255, 255, 255)
+}
+main > section{
+    grid-column-start:2;
+    grid-column-end: -1;
+    grid-row-start: 2;
+    grid-row-end: 5 ;
+    padding: 40px;
+}
+main > div.header-img-products{
+    background-image: url(RTX-Series-40.png);
+    grid-column-start:2;
+    grid-column-end: -1;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+
+main > footer{
+    padding: 20px;
+    grid-column-start: 1;
+    grid-column-end: -1;
+    width: 96vw;
+    height: 220px;
+    background-color:#293241;
+    z-index: 50;
+    color: white;
+}
+
+
+main footer div.my-contact{
+    width: 300px;
+}
+
+main footer div.my-contact h2{
+    text-align: center;
+    position: relative;
+    top: 10px;
+}
+
+main footer div.my-contact ul.links-informations{
+    color: white;
+    font-size: 16px;
+    position:relative;
+    top: 20px;
+    left: 70px;
+}
+
+main footer div.my-contact ul.links-informations li a{
+    color: white;
+    display: inline;
+}
+main footer div.my-contact ul.links-informations li{
+    padding: 9px;
+}
+
+main footer div.my-contact ul li img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 5px;
+    margin-right: 5px;
+}
+
+
+main footer div.business-informations{
+    width: 300px;
+    position: relative;
+    left: 550px;
+    bottom:170px;
+}
+
+
+main footer div.business-informations ul.list-buss-inf li a{
+    color: white;
+    padding:9px;
+}
+
+main footer div.business-informations ul.list-buss-inf li{
+    padding: 9px;
+    position: relative;
+    right: 18px;
+}
+
+
+
+main section article{
+    background: rgb(240, 240, 240);
+    width: 350px;
+    height:50vh;
+    margin: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+main section div.container-title-products h1{
+    text-align: center;
+    position:relative;
+    top: 8px;
+    font-weight: 100;
+    font-size: 28px;
+    margin-bottom: 80px;
+}
+
+
+main section div.container-product article a{
+    width:100%;
+    height: 50px;
+    background-color: rgb(201, 201, 201);
+    border-radius: 0px 0px 20px 20px ;
+    -webkit-border-radius: 0px 0px 20px 20px ;
+    -moz-border-radius: 0px 0px 20px 20px ;
+    -ms-border-radius: 0px 0px 20px 20px ;
+    -o-border-radius: 0px 0px 20px 20px ;
+    margin: 15px;
+}
+
+main section div.container-product article a h4{
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    
+}
+
+
+main section div.container-product article.article-1 div.container-img{
+    background-image: url(RTX-4090-STRIX-ASUS.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    height: 200px;
+    margin-bottom: 40px;
+    border-bottom:solid #29324173 1px;
+}
+
+
+main section div.container-product article h2{
+    text-align: center;
+    font-size: 25px;
+    line-height: 2;
+}
+
+main section div.container-product article h5{
+    font-size: 14px;
+    padding: 3px;
+    font-weight: 100;
+}
+
+main section div.container-product article h3#price-1{
+    color:rgb(42, 182, 7);
+    font-size: 26px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 20px;
+}   
+
+main section div.container-product article.article-2 div.container-img2{
+    background-image: url(MSI-RTX-4090-GAMING-X-TRIO-24G.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 40px;
+    border-bottom:solid #29324173 1px;
+}
+
+main section div.container-product article.article-3 div.container-img3{
+    background-image: url(RTX-4090-FD.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 40px;
+    border-bottom:solid #29324173 1px;
+}
+
+
+
+main aside{
+    width: 91%;
+}
+
+main aside div h3{
+    display: inline;
+    position:relative;
+    left: 20px;
+    
+}
+main aside div input{
+    width: 20px;
+    height: 20px;
+    float: right;
+    position: relative;
+    right:40px;
+}
+main aside div.Free-shipping-Filter{
+    position: relative;
+    top: 40px;
+    margin: auto;
+    background-color:rgb(243, 243, 243);
+    width:250px;
+    height: 70px;
+    border-radius: 10px;
+}   
+
+main aside div.Free-shipping-Filter input, aside div.Free-shipping-Filter h3{
+    position: relative;
+    top: 37%;
+}
+
+main aside div.categories-filters{
+    position: relative;
+    top: 70px;
+    margin: auto;
+    background-color:rgb(243, 243, 243);
+    width:300px;
+    height:730px;
+    border-radius: 10px;
+}
+
+main aside div.categories-filters h2{
+    font-weight: 500;
+    text-align:left;
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-size: 20px;
+}
+
+main aside div.categories-filters ul{
+    text-align: left;
+    position: relative;
+    left: 30px;
+    top: 50px;
+    color:grey;
+    cursor:pointer;
+}
+main aside div.categories-filters ul li{
+    padding: 4px 0px;
+}
+
+main aside div.categories-filters h2#condicion-title{
+    top: 80px;
+}
+
+main aside div.categories-filters ul#ul1{
+    top: 100px;
+}
+
+main aside div.categories-filters h2#Ubicacion-Title{
+    top: 120px;     
+}
+main aside div.categories-filters ul#ul2{
+    top: 140px;    
+}
+
+@media (max-width:1840px) {
+    
+    main section article{
+        background: rgb(240, 240, 240);
+        width: 320px;
+        height:50vh;
+        margin: 3px;
+        display: inline-block;
+        border-radius: 20px;
+        padding: 30px;
+    }
+
+    main section{
+        padding: 10px;
+    }
+}
+@media (max-width:1590px) {
+    main aside{
+        border-right:solid rgba(0, 0, 0, 0.123) 1px;
+    }
+}
+
+@media (max-width:1070px) {
+    main section div article{
+        display: block;
+        padding-bottom: 40px;
+        margin: auto;
+    }
+}
+
